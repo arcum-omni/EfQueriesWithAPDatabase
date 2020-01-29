@@ -22,6 +22,14 @@ namespace EfQueriesWithAPDatabase
             {
                 Console.WriteLine(currVendor.VendorName);
             }
+
+            // return a single object from the db
+
+            // join, get all vendors and invoices
+
+            // return object(s) but limit the columns (efficiently use bandwidth)
+
+            // get sum of invoice totals
             
             Console.ReadKey();
         }
